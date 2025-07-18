@@ -31,10 +31,4 @@ public class ForPaysend {
         return brackets.isEmpty();
     }
 
-    public static void main(String[] args) {
-
-        removingBrackets("");
-
-    }
-
 }
