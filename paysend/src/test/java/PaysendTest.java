@@ -15,8 +15,7 @@ public class PaysendTest {
         assertFalse(ForPaysend.removingBrackets("([)]"));
         assertFalse(ForPaysend.removingBrackets("}{"));
         assertTrue(ForPaysend.removingBrackets(""));
-        // based on the requirements this should pass, but my code is not handling this
-        // option
+        // based on the requirements i am not sure if this option should pass or fail
         assertTrue(ForPaysend.removingBrackets("{(})"));
     }
 }
